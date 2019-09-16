@@ -26,41 +26,41 @@ java jdk 8 or +<br />
 ## Crear empleados:
 (solo se pueden crear JEFE_DE_ZONA, VENDEDOR o SECRETARIO)<br />
 (el dni es unico no se pueden crear 2 empleados con mismo dni)<br />
-http://localhost:8080/v1/api/empleados/jefes <--- POST<br />
-http://localhost:8080/v1/api/empleados/vendedores <--- POST<br />
-http://localhost:8080/v1/api/empleados/secretarios <--- POST<br />
+http://10.2.19.17:8080/v1/api/empleados/jefes <--- POST<br />
+http://10.2.19.17:8080/v1/api/empleados/vendedores <--- POST<br />
+http://10.2.19.17:8080/v1/api/empleados/secretarios <--- POST<br />
 (crear empleados obteniendo datos desde la api FacultadRest)<br />
-http://localhost:8080/v1/api/facultad/jefes/{dni} <--- POST<br />
-http://localhost:8080/v1/api/facultad/vendedores/{dni} <--- POST<br />
-http://localhost:8080/v1/api/facultad/secretarios/{dni} <--- POST<br />
+http://10.2.19.17:8080/v1/api/facultad/jefes/{dni} <--- POST<br />
+http://10.2.19.17:8080/v1/api/facultad/vendedores/{dni} <--- POST<br />
+http://10.2.19.17:8080/v1/api/facultad/secretarios/{dni} <--- POST<br />
 
 ## Buscar empleados
 (traer una lista de empleados)<br />
-http://localhost:8080/v1/api/empleados <--- GET<br />
+http://10.2.19.17:8080/v1/api/empleados <--- GET<br />
 (traer una lista de empleados segun su cargo)<br />
-http://localhost:8080/v1/api/empleados/jefes <--- GET<br />
-http://localhost:8080/v1/api/empleados/secretarios <--- GET<br />
-http://localhost:8080/v1/api/empleados/vendedores <--- GET<br />
+http://10.2.19.17:8080/v1/api/empleados/jefes <--- GET<br />
+http://10.2.19.17:8080/v1/api/empleados/secretarios <--- GET<br />
+http://10.2.19.17:8080/v1/api/empleados/vendedores <--- GET<br />
 (traer un empleado en particular segun su dni)<br />
-http://localhost:8080/v1/api/empleados/{dni}<--- GET<br />
+http://10.2.19.17:8080/v1/api/empleados/{dni}<--- GET<br />
 (traer una lista de empleados de la api FacultadRest)<br />
-http://localhost:8080/v1/api/facultad/ <--- GET<br />
+http://10.2.19.17:8080/v1/api/facultad/ <--- GET<br />
 (traer un empleado en particular segun su dni de la api FacultadRest)<br />
-http://localhost:8080/v1/api/facultad/{dni} <--- GET<br />
+http://10.2.19.17:8080/v1/api/facultad/{dni} <--- GET<br />
 (traer una lista de empleados filtrando segun parametros particulares)<br />
 (se puede filtrar por N cantidad de parametros)<br />
-http://localhost:8080/v1/api/empleados/?atributo1=valor1&?atributo2=valor2 <--- GET<br />
+http://10.2.19.17:8080/v1/api/empleados/?atributo1=valor1&?atributo2=valor2 <--- GET<br />
 (traer una lista de empleados de la facultad filtrando por la query dinamica de la api de FacultadRest)<br />
-http://localhost:8080/v1/api/facultad/?atributo1=valor1&?atributo2=valor2 <--- GET<br />
+http://10.2.19.17:8080/v1/api/facultad/?atributo1=valor1&?atributo2=valor2 <--- GET<br />
 
 ## Modificar empleado
 (modificar un empleado en particular segun su dni)<br />
 (si se quiere modificar el cargo debe hacerlo desde el endpoint del cargo nuevo que queire darle)<br />
 (el dni es unico y no es modificable)<br />
-http://localhost:8080/v1/api/empleados/jefes/{dni} <--- PUT<br />
-http://localhost:8080/v1/api/empleados/secretarios/{dni} <--- PUT<br />
-http://localhost:8080/v1/api/empleados/vendedores/{dni} <--- PUT<br />
+http://10.2.19.17:8080/v1/api/empleados/jefes/{dni} <--- PUT<br />
+http://10.2.19.17:8080/v1/api/empleados/secretarios/{dni} <--- PUT<br />
+http://10.2.19.17:8080/v1/api/empleados/vendedores/{dni} <--- PUT<br />
 
 ## Borrar empleado
 (borrar un empleado segun su dni)<br />
-http://localhost:8080/v1/api/empleados/{dni} <--- DELETE<br />
+http://10.2.19.17:8080/v1/api/empleados/{dni} <--- DELETE<br />
