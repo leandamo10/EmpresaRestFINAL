@@ -2,8 +2,9 @@
 
 ## API REST CRUD para trabajar sobre una empresa y guardar empleados en una base de datos Mongo
 
-## Requisitos para consumir la api:
+## Requisitos para instalar la api:
 mongodb 3.6.x or +<br /> 
+maven 3.0 or +
 java jdk 8 or +<br /> 
 
 ## Body de ejemplo:
