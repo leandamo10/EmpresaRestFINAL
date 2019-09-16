@@ -64,22 +64,3 @@ http://localhost:8080/v1/api/empleados/vendedores/{dni} <--- PUT<br />
 # Borrar empleado
 (borrar un empleado segun su dni)<br />
 http://localhost:8080/v1/api/empleados/{dni} <--- DELETE<br />
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
