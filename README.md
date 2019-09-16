@@ -4,7 +4,7 @@
 
 ## Requisitos para instalar la api:
 mongodb 3.6.x or +<br /> 
-maven 3.0 or +
+maven 3.0 or + <br /> 
 java jdk 8 or +<br /> 
 
 ## Body de ejemplo:
