@@ -49,7 +49,7 @@ http://localhost:8080/v1/api/facultad/ <--- GET<br />
 http://localhost:8080/v1/api/facultad/{dni} <--- GET<br />
 (traer una lista de empleados filtrando segun parametros particulares)<br />
 (se puede filtrar por N cantidad de parametros)<br />
-http://localhost:8080/v1/api/empleados/?atributo1=valor1&?atributo2=valor2 <--- GET
+http://localhost:8080/v1/api/empleados/?atributo1=valor1&?atributo2=valor2 <--- GET<br />
 (traer una lista de empleados de la facultad filtrando por la query dinamica de la api de FacultadRest)<br />
 http://localhost:8080/v1/api/facultad/?atributo1=valor1&?atributo2=valor2 <--- GET<br />
 
